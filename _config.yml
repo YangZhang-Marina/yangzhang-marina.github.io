@@ -23,7 +23,7 @@ repository               : "YangZhang-Marina/yangzhang-marina.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile1.png"
+  avatar           : "profile0.png"
   name             : "Yang Zhang"
   pronouns         : # example: "she/her"  
   bio              : "Master student at Nankai University, advised by Prof. Zheli Liu and Assoc. Prof. Siyi Lv. Focusing on Vector Databases and AI Security."
