@@ -25,12 +25,6 @@ I am particularly interested in understanding how seemingly harmless operational
 - **November 2025:** Ranked 22nd (22/ 541) in the AI Security track of DataCon2025 Big Data Security Analysis Competition.
 - **September 2025:** Started M.S. study in Cyberspace Security at Nankai University, advised by Prof. Zheli Liu.
 
-## Selected Publications
-
-1. **Can I Get More? An Incremental Inference Attack on Encrypted SQL**
-   Xiaoqian Sun*, Ruiqi He*, **Yang Zhang**, Siyi Lv, Guiyun Qin, Fangzhou Yi, Zheli Liu, Xiaofeng Chen.
-   *IEEE Symposium on Security and Privacy (S&P/Oakland), 2026.*
-
 
 ## Contact
 

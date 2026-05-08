@@ -2,11 +2,12 @@
 title: "Can I Get More? An Incremental Inference Attack on Encrypted SQL"
 collection: publications
 category: conferences
-permalink: /publication/sp2026-incremental-inference-encrypted-sql
+# permalink: /publication/sp2026-incremental-inference-encrypted-sql
 excerpt: "An incremental leakage-abuse attack on encrypted SQL systems using anchors, joint distribution leakage, and optimal transport."
-date: 2026-05-01
+# date: 2026-05-01
 venue: "IEEE Symposium on Security and Privacy (S&P/Oakland)"
-paperurl: ""
+status: "Accepted"
+# paperurl: ""
 code: ""
 slides: ""
 citation: "Xiaoqian Sun*, Ruiqi He*, <strong>Yang Zhang</strong>, Siyi Lv, Guiyun Qin, Fangzhou Yi, Zheli Liu, and Xiaofeng Chen. &quot;Can I Get More? An Incremental Inference Attack on Encrypted SQL.&quot; <i>IEEE Symposium on Security and Privacy (S&P/Oakland)</i>, 2026."

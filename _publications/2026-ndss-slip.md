@@ -2,14 +2,15 @@
 title: "SLIP Through the Cracks: Semantic Leakage from ID Patterns in Vector Database Similarity Queries"
 collection: publications
 category: manuscripts
-permalink: /publication/slip-vector-database-id-leakage
+# permalink: /publication/slip-vector-database-id-leakage
 excerpt: "A semantic leakage attack showing that returned ID lists from vector database similarity queries can reveal query labels."
-date: 2026-05-06
+# date: 2026-05-06
 venue: "NDSS submission"
-paperurl: ""
+status: "Under review"
+# paperurl: ""
 code: ""
 slides: ""
-citation: "<strong>Yang Zhang</strong> et al. &quot;SLIP Through the Cracks: Semantic Leakage from ID Patterns in Vector Database Similarity Queries.&quot; Submitted."
+# citation: "<strong>Yang Zhang</strong> et al. &quot;SLIP Through the Cracks: Semantic Leakage from ID Patterns in Vector Database Similarity Queries.&quot; Submitted."
 tags:
   - vector-database
   - database-security

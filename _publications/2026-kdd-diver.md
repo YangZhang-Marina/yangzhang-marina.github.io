@@ -5,7 +5,8 @@ category: manuscripts
 # permalink: /publication/diver-rag-extraction-hidden-representations
 excerpt: "A representation-based detector for external data extraction attacks in RAG systems using pre-generation hidden states."
 # date: 2026-05-01
-# venue: "KDD submission"
+venue: "KDD submission"
+status: "Under review"
 # paperurl: ""
 code: ""
 slides: ""
