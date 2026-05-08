@@ -1,152 +1,184 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Yang Zhang",
+    "label": "Master's Student in Cybersecurity",
+    "email": "yangz@mail.nankai.edu.cn",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://yangzhang-marina.github.io",
+    "summary": "Master's student at Nankai University focusing on vector databases, AI security, database security, and web security. Experienced in openGauss database kernel development, searchable symmetric encryption, vulnerability analysis, and RAG defense frameworks.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Tianjin",
+      "countryCode": "China",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "YangZhang-Marina",
+        "url": "https://github.com/YangZhang-Marina"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "360 Enterprise Security Group",
+      "position": "Security R&D Intern",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Participated in enterprise vulnerability scanning system maintenance and strategy updates.",
+      "highlights": [
+        "Scanned and analyzed common vulnerabilities including SQL injection, XSS, and SSRF.",
+        "Developed efficient proof-of-concept exploits for specific logic vulnerabilities."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Nankai University, College of Cryptography and Security",
+      "area": "M.S. in Cybersecurity",
+      "studyType": "Master",
+      "startDate": "2025-06",
+      "endDate": "Present",
       "gpa": null,
-      "courses": []
+      "courses": [
+        "Advisor: Prof. Zheli Liu",
+        "Research interests: vector databases and AI security"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "Nankai University, College of Cryptography and Security",
+      "area": "B.S. in Information Security",
+      "studyType": "Bachelor",
+      "startDate": "2021-09",
+      "endDate": "2025-06",
+      "gpa": "3.7/4.0; weighted score 89.01/100; rank 7/50",
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "C/C++",
+        "Multithreaded programming",
+        "Memory management",
+        "Python",
+        "Java"
+      ]
+    },
+    {
+      "name": "Databases and Storage",
+      "keywords": [
+        "openGauss",
+        "Relational database kernels",
+        "Vector databases",
+        "Indexing principles"
+      ]
+    },
+    {
+      "name": "Security",
+      "keywords": [
+        "Searchable Symmetric Encryption",
+        "Symmetric and asymmetric cryptography",
+        "Vulnerability scanning",
+        "POC development",
+        "RAG security"
+      ]
+    },
+    {
+      "name": "Engineering Tools",
+      "keywords": [
+        "Git",
+        "Docker",
+        "Linux",
+        "Open-source collaboration"
+      ]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Research Interests",
+      "keywords": [
+        "Vector databases",
+        "AI security",
+        "Database security",
+        "Web security"
+      ]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Web Situational Awareness and User Interaction Behavior Analysis",
+      "publisher": "NDSS",
+      "releaseDate": "2024-01-01",
+      "website": "",
+      "summary": "Security posture analysis of global Top 500 websites using high-concurrency crawling, interface element analysis, and user interaction behavior modeling."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Defense Framework Against RAG Data Extraction Attacks",
+      "publisher": "Under submission",
+      "releaseDate": "2024-10-01",
+      "website": "",
+      "summary": "A hidden-state monitoring defense framework for external data extraction attacks in RAG systems, designed to identify attack intent before generation and avoid token leakage."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
+      "name": "Searchable Symmetric Encryption for openGauss",
+      "category": "database security",
       "date": "",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Implemented SSE encryption operators in the openGauss database kernel with C/C++, supporting transparent encrypted search over sensitive fields."
+    },
+    {
+      "name": "RAG Data Extraction Attack Defense",
+      "category": "AI security",
+      "date": "",
+      "url": "",
+      "description": "Built a defense framework against RAG external data extraction attacks by monitoring frozen LLM hidden-state representations before generation."
+    },
+    {
+      "name": "Web Situational Awareness and User Interaction Analysis",
+      "category": "web security",
+      "date": "",
+      "url": "",
+      "description": "Led analysis of global Top 500 websites with Python-based high-concurrency crawlers and interaction behavior modeling."
+    },
+    {
+      "name": "Android Application with LLM API Integration",
+      "category": "software development",
+      "date": "",
+      "url": "",
+      "description": "Developed an Android application integrating database storage, LLM API calls, and UI design for the Nankai University President's Cup."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Outstanding Graduate",
+      "date": "2025",
+      "awarder": "Nankai University"
+    },
+    {
+      "title": "Postgraduate Recommendation Scholarship and Gongneng Scholarship",
+      "date": "2024-2025",
+      "awarder": "Nankai University"
+    },
+    {
+      "title": "Honorable Mention",
+      "date": "2024",
+      "awarder": "Mathematical Contest in Modeling"
+    },
+    {
+      "title": "Silver Medal",
+      "date": "2023",
+      "awarder": "China International College Students' Internet+ Innovation and Entrepreneurship Competition"
     }
   ]
 }

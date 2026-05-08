@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yang Zhang(张洋)"
+title                    : "Yang Zhang (张洋)"
 title_separator          : "-"
 name                     : &name "Yang Zhang"
-description              : &description "Master student at Nankai University. Research interests include Vector Databases and AI Security."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Master's student at Nankai University focusing on vector databases, AI security, database security, and web security."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://yangzhang-marina.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.jpeg"
   name             : "Yang Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "Master student at Nankai University, advised by Prof. Zheli Liu and Assoc. Prof. Siyi Lv. Focusing on Vector Databases and AI Security."
+  bio              : "Master's student at Nankai University focusing on vector databases, AI security, database security, and web security."
   location         : "Tianjin, China"
   employer         : "Nankai University"
   uri              : # URL
