@@ -2,32 +2,60 @@
 permalink: /
 title: "About Me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am currently a Master's student in Cybersecurity at the College of Cryptography and Security, [Nankai University](https://www.nankai.edu.cn/), advised by **Prof. Zheli Liu**. Prior to my master's studies, I received my Bachelor's degree in Information Security from Nankai University in 2025, graduating as an Outstanding Graduate.
+I am an M.S. student in Cyberspace Security at [Nankai University](https://www.nankai.edu.cn/), advised by **Prof. Zheli Liu**. My research focuses on security and privacy problems at the intersection of AI systems, databases, and cryptography, including vector database leakage, RAG security, encrypted SQL inference attacks, and searchable encryption.
 
-My research interests center on vector databases, AI security, database security, and web security. I have practical experience ranging from open-source database kernel development and searchable symmetric encryption to vulnerability analysis, web situational awareness, and RAG defense frameworks.
+I am particularly interested in understanding how seemingly harmless operational traces, such as returned document IDs, encrypted query access patterns, or hidden representations of large language models, can reveal sensitive semantic or plaintext information. My recent work studies semantic leakage from vector database similarity search, leakage-abuse attacks on encrypted SQL systems, and representation-based defenses against external data extraction attacks in RAG systems.
 
-Feel free to reach out to me via email (**yangz@mail.nankai.edu.cn**) for discussions, collaborations, or **potential PhD opportunities**!
+I have worked on research projects submitted to or accepted by top security and data mining venues, including IEEE Symposium on Security and Privacy (S&P/Oakland), NDSS, and KDD. I also have engineering experience with openGauss database internals, dynamic searchable encryption prototypes, and security vulnerability analysis.
 
-## Research Areas
-* **AI Security:** Defense mechanisms for Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) systems.
-* **Vector Databases & Database Security:** Searchable Symmetric Encryption (SSE), encrypted indexing, and efficient retrieval over protected data.
-* **Web Security:** Vulnerability analysis, situational awareness, and user interaction modeling.
+## Research Interests
 
-## Selected Projects
-* **Web Situational Awareness and User Interaction Behavior Analysis:** Led a project analyzing the security posture of global Top 500 websites, using Python-based high-concurrency crawlers to collect and model interface elements and user interaction data.
-* **Searchable Symmetric Encryption for openGauss:** Implemented and integrated SSE encryption operators in the openGauss database kernel with C/C++, supporting transparent field-level encryption and encrypted search.
-* **RAG Data Extraction Attack Defense:** Built a defense framework that monitors frozen LLM hidden states before generation to identify external data extraction attacks with zero token leakage. Ranked 22nd in the Datacon RAG track.
+- AI Security
+- RAG Security
+- Vector Database Security
+- Database Security
+- Encrypted SQL
+- Leakage-Abuse Attacks
+- Searchable Encryption
+- Secure Query Processing
+- Privacy Leakage from Retrieval Systems
+- Hidden Representation Probing
+- Security Evaluation of AI Infrastructure
 
-## Selected Awards & Honors
-* **Outstanding Graduate**, Nankai University (2025)
-* **Postgraduate Recommendation Scholarship**, Nankai University (2024-2025)
-* **Gongneng Scholarship**, Nankai University (2024-2025)
-* **Honorable Mention**, Mathematical Contest in Modeling (MCM/ICM) (2024)
-* **Academic Excellence Scholarship**, Nankai University (2023-2024)
-* **Silver Medal**, China International College Students' "Internet+" Innovation and Entrepreneurship Competition (2023)
-* **Gongneng Scholarship & Merit Student Honor**, Nankai University (2022-2023)
+## News
+
+- **May 2026:** Submitted a first-author manuscript, "SLIP Through the Cracks: Semantic Leakage from ID Patterns in Vector Database Similarity Queries," to NDSS.
+- **May 2026:** Submitted "You Shouldn't Have Taken It: Detecting Extraction from Retrieval-Augmented Generation via Hidden Representations" to KDD as a co-first author.
+- **2026:** Our paper "Can I Get More? An Incremental Inference Attack on Encrypted SQL" was accepted by IEEE Symposium on Security and Privacy (S&P/Oakland) 2026.
+- **2025:** Ranked 22nd in the AI Security track of DataCon2025 Big Data Security Analysis Competition.
+- **2025:** Started M.S. study in Cyberspace Security at Nankai University, advised by Prof. Zheli Liu.
+
+## Selected Publications
+
+1. **Can I Get More? An Incremental Inference Attack on Encrypted SQL**
+   Xiaoqian Sun*, Ruiqi He*, **Yang Zhang**, Siyi Lv, Guiyun Qin, Fangzhou Yi, Zheli Liu, Xiaofeng Chen.
+   *IEEE Symposium on Security and Privacy (S&P/Oakland), 2026.*
+
+2. **SLIP Through the Cracks: Semantic Leakage from ID Patterns in Vector Database Similarity Queries**
+   **Yang Zhang** et al.
+   *Submitted to NDSS.*
+
+3. **You Shouldn't Have Taken It: Detecting Extraction from Retrieval-Augmented Generation via Hidden Representations**
+   **Yang Zhang** et al.
+   *Submitted to KDD. Co-first author.*
+
+## Research Projects
+
+- **Vector Database ID-Pattern Leakage.** Studying how returned top-k ID lists from vector database similarity search can leak semantic query labels.
+- **RAG Extraction Defense via Hidden Representations.** Detecting external data extraction attacks before generation using hidden states of frozen language models.
+- **Encrypted SQL Inference Attacks.** Exploiting joint distribution leakage in encrypted SQL systems using optimal transport and anchor-based incremental recovery.
+- **Dynamic Searchable Encryption in openGauss.** Building a Fides/Sophos-style prototype inside openGauss query paths.
+
+## Contact
+
+Please feel free to contact me at **yangz@mail.nankai.edu.cn**.

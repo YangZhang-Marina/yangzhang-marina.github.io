@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Yang Zhang (张洋)"
 title_separator          : "-"
 name                     : &name "Yang Zhang"
-description              : &description "Master's student at Nankai University focusing on vector databases, AI security, database security, and web security."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "M.S. student at Nankai University studying AI security, database security, RAG security, vector database privacy leakage, and searchable encryption."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://yangzhang-marina.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "profile.jpeg"
   name             : "Yang Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "Master's student at Nankai University focusing on vector databases, AI security, database security, and web security."
+  bio              : "M.S. student at Nankai University studying AI security, database security, RAG security, and vector database privacy leakage."
   location         : "Tianjin, China"
-  employer         : "Nankai University"
+  employer         : "College of Cyber Science, Nankai University"
   uri              : # URL
   email            : "yangz@mail.nankai.edu.cn" 
 
@@ -86,10 +86,10 @@ author:
 publication_category:
   # books:
   #   title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  manuscripts:
+    title: 'Manuscripts'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -97,7 +97,6 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -221,18 +220,12 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  # teaching:
-  #   output: true
-  #   permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
-  # talks:
-  #   output: true
-  #   permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -255,15 +248,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -273,23 +257,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 
 # Sass/SCSS

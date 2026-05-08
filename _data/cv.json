@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Yang Zhang",
-    "label": "Master's Student in Cybersecurity",
+    "label": "M.S. Student in Cyberspace Security",
     "email": "yangz@mail.nankai.edu.cn",
     "phone": "",
     "website": "https://yangzhang-marina.github.io",
-    "summary": "Master's student at Nankai University focusing on vector databases, AI security, database security, and web security. Experienced in openGauss database kernel development, searchable symmetric encryption, vulnerability analysis, and RAG defense frameworks.",
+    "summary": "I study privacy leakage and defense mechanisms in AI-driven data systems, especially vector databases, RAG pipelines, and encrypted database query systems.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,32 +24,34 @@
   "work": [
     {
       "company": "360 Enterprise Security Group",
-      "position": "Security R&D Intern",
+      "position": "Security Development / Vulnerability Analysis Training",
       "website": "",
       "startDate": "",
       "endDate": "",
-      "summary": "Participated in enterprise vulnerability scanning system maintenance and strategy updates.",
+      "summary": "Participated in vulnerability reproduction, POC development, and web security testing tasks.",
       "highlights": [
-        "Scanned and analyzed common vulnerabilities including SQL injection, XSS, and SSRF.",
-        "Developed efficient proof-of-concept exploits for specific logic vulnerabilities."
+        "Reproduced and analyzed high-risk vulnerabilities including Apache bRPC RCE and VMware vCenter Server RCE (CVE-2021-21972).",
+        "Built vulnerability reproduction environments and documented trigger conditions, affected versions, exploit paths, and remediation suggestions.",
+        "Wrote Python POC scripts and organized automated verification procedures.",
+        "Completed web penetration testing tasks involving SQL injection, file upload, file parsing, information leakage, and WAF attack log analysis."
       ]
     }
   ],
   "education": [
     {
-      "institution": "Nankai University, College of Cryptography and Security",
-      "area": "M.S. in Cybersecurity",
+      "institution": "Nankai University, College of Cyber Science",
+      "area": "M.S. in Cyberspace Security",
       "studyType": "Master",
       "startDate": "2025-06",
       "endDate": "Present",
       "gpa": null,
       "courses": [
         "Advisor: Prof. Zheli Liu",
-        "Research interests: vector databases and AI security"
+        "Research direction: vector database security, AI security, encrypted database leakage, and RAG security"
       ]
     },
     {
-      "institution": "Nankai University, College of Cryptography and Security",
+      "institution": "Nankai University, College of Cyber Science",
       "area": "B.S. in Information Security",
       "studyType": "Bachelor",
       "startDate": "2021-09",
@@ -63,38 +65,56 @@
       "name": "Programming",
       "keywords": [
         "C/C++",
-        "Multithreaded programming",
-        "Memory management",
         "Python",
-        "Java"
+        "Java",
+        "SQL",
+        "Shell scripting"
       ]
     },
     {
-      "name": "Databases and Storage",
+      "name": "AI / Machine Learning",
+      "keywords": [
+        "PyTorch basics",
+        "scikit-learn",
+        "XGBoost",
+        "Representation probing",
+        "Hidden-state extraction",
+        "LLM API usage",
+        "RAG pipeline evaluation"
+      ]
+    },
+    {
+      "name": "Database and Systems",
       "keywords": [
         "openGauss",
-        "Relational database kernels",
-        "Vector databases",
-        "Indexing principles"
+        "Relational database internals",
+        "Query rewriting",
+        "Searchable encryption prototype development",
+        "Linux",
+        "Docker",
+        "Git"
       ]
     },
     {
       "name": "Security",
       "keywords": [
-        "Searchable Symmetric Encryption",
-        "Symmetric and asymmetric cryptography",
-        "Vulnerability scanning",
-        "POC development",
-        "RAG security"
+        "Encrypted database leakage analysis",
+        "Searchable encryption",
+        "Leakage-abuse attacks",
+        "RAG extraction attacks",
+        "Vulnerability reproduction",
+        "POC writing",
+        "Web security testing"
       ]
     },
     {
-      "name": "Engineering Tools",
+      "name": "Research Tools",
       "keywords": [
-        "Git",
-        "Docker",
-        "Linux",
-        "Open-source collaboration"
+        "LaTeX",
+        "Python scientific stack",
+        "Experiment automation",
+        "Paper reading and writing",
+        "Technical figure preparation"
       ]
     }
   ],
@@ -103,82 +123,102 @@
     {
       "name": "Research Interests",
       "keywords": [
-        "Vector databases",
-        "AI security",
-        "Database security",
-        "Web security"
+        "AI Security",
+        "RAG Security",
+        "Vector Database Security",
+        "Database Security",
+        "Encrypted SQL",
+        "Leakage-Abuse Attacks",
+        "Searchable Encryption",
+        "Secure Query Processing",
+        "Privacy Leakage from Retrieval Systems",
+        "Hidden Representation Probing",
+        "Security Evaluation of AI Infrastructure"
       ]
     }
   ],
   "references": [],
   "publications": [
     {
-      "name": "Web Situational Awareness and User Interaction Behavior Analysis",
-      "publisher": "NDSS",
-      "releaseDate": "2024-01-01",
+      "name": "Can I Get More? An Incremental Inference Attack on Encrypted SQL",
+      "publisher": "IEEE Symposium on Security and Privacy (S&P/Oakland), 2026",
+      "releaseDate": "2026-05-01",
       "website": "",
-      "summary": "Security posture analysis of global Top 500 websites using high-concurrency crawling, interface element analysis, and user interaction behavior modeling."
+      "summary": "An incremental leakage-abuse attack on encrypted SQL systems using anchors, joint distribution leakage, and optimal transport."
     },
     {
-      "name": "Defense Framework Against RAG Data Extraction Attacks",
-      "publisher": "Under submission",
-      "releaseDate": "2024-10-01",
+      "name": "SLIP Through the Cracks: Semantic Leakage from ID Patterns in Vector Database Similarity Queries",
+      "publisher": "NDSS submission",
+      "releaseDate": "2026-05-06",
       "website": "",
-      "summary": "A hidden-state monitoring defense framework for external data extraction attacks in RAG systems, designed to identify attack intent before generation and avoid token leakage."
+      "summary": "A semantic leakage attack showing that returned ID lists from vector database similarity queries can reveal query labels."
+    },
+    {
+      "name": "You Shouldn't Have Taken It: Detecting Extraction from Retrieval-Augmented Generation via Hidden Representations",
+      "publisher": "KDD submission",
+      "releaseDate": "2026-05-01",
+      "website": "",
+      "summary": "A representation-based detector for external data extraction attacks in RAG systems using pre-generation hidden states."
     }
   ],
   "presentations": [],
   "teaching": [],
-  "portfolio": [
+  "portfolio": [],
+  "projects": [
     {
-      "name": "Searchable Symmetric Encryption for openGauss",
+      "name": "Dynamic Searchable Encryption Prototype in openGauss",
       "category": "database security",
       "date": "",
       "url": "",
-      "description": "Implemented SSE encryption operators in the openGauss database kernel with C/C++, supporting transparent encrypted search over sensitive fields."
+      "description": "A Fides/Sophos-style dynamic searchable encryption prototype integrated into openGauss query paths."
     },
     {
-      "name": "RAG Data Extraction Attack Defense",
-      "category": "AI security",
+      "name": "Data Extraction Attack Framework for RAG Systems - DataCon2025",
+      "category": "RAG security",
       "date": "",
       "url": "",
-      "description": "Built a defense framework against RAG external data extraction attacks by monitoring frozen LLM hidden-state representations before generation."
+      "description": "A general-purpose RAG extraction attack framework combining instruction injection, BFS exploration, semantic query fusion, and duplicate filtering."
     },
     {
-      "name": "Web Situational Awareness and User Interaction Analysis",
-      "category": "web security",
+      "name": "SLIP: Vector Database ID-Pattern Leakage Attack",
+      "category": "vector database security",
       "date": "",
       "url": "",
-      "description": "Led analysis of global Top 500 websites with Python-based high-concurrency crawlers and interaction behavior modeling."
+      "description": "A vector database leakage attack showing that returned top-k ID lists can reveal semantic query labels."
     },
     {
-      "name": "Android Application with LLM API Integration",
-      "category": "software development",
+      "name": "Encrypted SQL Inference Attack with Anchor-Joint Recovery",
+      "category": "encrypted database security",
       "date": "",
       "url": "",
-      "description": "Developed an Android application integrating database storage, LLM API calls, and UI design for the Nankai University President's Cup."
+      "description": "A plaintext recovery attack against encrypted SQL systems using joint distribution leakage, optimal transport, and anchor-based incremental recovery."
     }
   ],
   "awards": [
     {
-      "title": "Outstanding Graduate",
+      "title": "IEEE Symposium on Security and Privacy (S&P/Oakland) 2026 paper accepted",
+      "date": "2026",
+      "awarder": "IEEE S&P"
+    },
+    {
+      "title": "DataCon2025 Big Data Security Analysis Competition, AI Security track, ranked 22nd",
+      "date": "2025",
+      "awarder": "DataCon2025"
+    },
+    {
+      "title": "National College Students' Innovation and Entrepreneurship Competition, Silver Award",
+      "date": "",
+      "awarder": ""
+    },
+    {
+      "title": "MCM/ICM 2024, Honorable Mention",
+      "date": "2024",
+      "awarder": "MCM/ICM"
+    },
+    {
+      "title": "Nankai University Outstanding Graduate",
       "date": "2025",
       "awarder": "Nankai University"
-    },
-    {
-      "title": "Postgraduate Recommendation Scholarship and Gongneng Scholarship",
-      "date": "2024-2025",
-      "awarder": "Nankai University"
-    },
-    {
-      "title": "Honorable Mention",
-      "date": "2024",
-      "awarder": "Mathematical Contest in Modeling"
-    },
-    {
-      "title": "Silver Medal",
-      "date": "2023",
-      "awarder": "China International College Students' Internet+ Innovation and Entrepreneurship Competition"
     }
   ]
 }
