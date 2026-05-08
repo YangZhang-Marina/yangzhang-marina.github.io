@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Searchable Encryption Prototype in openGauss"
 collection: projects
-permalink: /projects/opengauss-dynamic-sse
+# permalink: /projects/opengauss-dynamic-sse
 excerpt: "A Fides/Sophos-style dynamic searchable encryption prototype integrated into openGauss query paths."
 tags:
   - database-security

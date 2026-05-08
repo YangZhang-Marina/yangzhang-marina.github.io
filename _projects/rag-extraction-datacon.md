@@ -1,7 +1,7 @@
 ---
 title: "Data Extraction Attack Framework for RAG Systems - DataCon2025"
 collection: projects
-permalink: /projects/rag-extraction-datacon
+# permalink: /projects/rag-extraction-datacon
 excerpt: "A general-purpose RAG extraction attack framework combining instruction injection, BFS exploration, semantic query fusion, and duplicate filtering."
 tags:
   - ai-security
