@@ -26,7 +26,7 @@ author:
   avatar           : "profile.jpeg"
   name             : "Yang Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "M.S. student at Nankai University studying AI security, database security, RAG security, and vector database privacy leakage."
+  bio              : "M.S. student at Nankai University studying AI security, database security, RAG security, and encrypted database."
   location         : "Tianjin, China"
   employer         : "College of Cryptology and Cyber Science, Nankai University"
   uri              : # URL
