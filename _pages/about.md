@@ -14,18 +14,13 @@ I am particularly interested in understanding how seemingly harmless operational
 ## Research Interests
 
 - AI Security
-- RAG Security
 - Database Security
-- Encrypted SQL
-- Searchable Encryption
-- Privacy Leakage from Retrieval Systems
-- Hidden Representation Probing
-- Security Evaluation of AI Infrastructure
+- Encrypted Database
 
 ## News
 
 - **May 2026:** Submitted a first-author manuscript to NDSS.
-- - **April 2026:** Our paper "Can I Get More? An Incremental Inference Attack on Encrypted SQL" was accepted by IEEE Symposium on Security and Privacy (S&P/Oakland) 2026.
+- **April 2026:** Our paper "Can I Get More? An Incremental Inference Attack on Encrypted SQL" was accepted by IEEE Symposium on Security and Privacy (S&P/Oakland) 2026.
 - **Februry 2026:** Submitted "You Shouldn't Have Taken It: Detecting Extraction from Retrieval-Augmented Generation via Hidden Representations" to KDD as a co-first author.
 - **November 2025:** Ranked 22nd (22/ 541) in the AI Security track of DataCon2025 Big Data Security Analysis Competition.
 - **September 2025:** Started M.S. study in Cyberspace Security at Nankai University, advised by Prof. Zheli Liu.

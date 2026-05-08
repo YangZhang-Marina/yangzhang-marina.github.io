@@ -6,7 +6,7 @@ category: manuscripts
 excerpt: "A representation-based detector for external data extraction attacks in RAG systems using pre-generation hidden states."
 # date: 2026-05-01
 # venue: "KDD submission"
-paperurl: ""
+# paperurl: ""
 code: ""
 slides: ""
 # citation: "<strong>Yang Zhang</strong> et al. &quot;You Shouldn't Have Taken It: Detecting Extraction from Retrieval-Augmented Generation via Hidden Representations.&quot; Submitted."
