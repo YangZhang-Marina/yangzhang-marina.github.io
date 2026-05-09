@@ -11,6 +11,8 @@ I am an M.S. student in Cyberspace Security at [Nankai University](https://www.n
 
 I am particularly interested in understanding how seemingly harmless operational traces, such as returned document IDs, encrypted query access patterns, or hidden representations of large language models, can reveal sensitive semantic or plaintext information. My recent work studies semantic leakage from vector database similarity search, leakage-abuse attacks on encrypted SQL systems, and representation-based defenses against external data extraction attacks in RAG systems.
 
+I expect to graduate with my master's degree in 2028 and am actively seeking Ph.D. opportunities in security, privacy, and trustworthy AI/data systems.
+
 ## Research Interests
 
 - AI Security
@@ -28,4 +30,4 @@ I am particularly interested in understanding how seemingly harmless operational
 
 ## Contact
 
-Please feel free to contact me at **yangz@mail.nankai.edu.cn**.
+Please feel free to contact me at **yangz@mail.nankai.edu.cn**, especially for Ph.D. opportunities and research collaborations.
